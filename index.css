@@ -2,7 +2,7 @@
   --color-dark: #241e38;;
   --color-light:#f0eef6;
   --color-gray:#9e98b3;
-  --color-primary:rgb(12, 5, 5);
+  --color-primary:#6706ac;
   --color-secondary:#d6ccff;
   --color-danger:#fb5151;
   --color-black:#000;
@@ -127,52 +127,107 @@ header{
 
 
 span{
-color:#6706ac;
+color:var(--color-primary);
 font-family: "poppins",sans-serif;
 }
 
-header ul li{
-list-style-type: none;
-display: inline-block;
-padding: 10px 25px;
+/* ----------------------------------------------------------NAVBAR ---------------------------------------*/
 
-}
-header ul{
-border: 1px solid transparent;
-}
-
-
-header ul li a{
-text-decoration: none;
-color: white;
-font-weight: bold;
-text-transform: capitalize;
-
-}
-
-header ul li a:hover{
-color:#6706ac;
-transition: .4s;
-}
-
-.btn{
-background-color:#6706ac ;
-color: white; 
-border-radius: 4px;
-border: 1px solid transparent;
-padding: 10px 25px;
-font-weight: bold;
-text-decoration: none;
-transition: .4s;
-}
-
-.btn:hover{
-transform: scale(1.2);
-border: 1px solid #6706ac;
-background-color: black;
-color:#6706ac;
+header{
+  display: flex;  
+  align-items: center;
+  justify-content: space-around;
+  background-color:var(--color-black);
+  color:var(--color-white);
+  position:fixed;
+  border: 1px solid transparent;
+  height: 65px;
+  width: 100%;
+  z-index: 150;
+  top: 0;
+ }
+ 
+ .logo{
+  font-size: 30px;  
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-left: 50px;
+ 
+  font-weight: bold;
+ }
+ 
+ .bars{
+  border: 1px solid transparent;
+  padding:2px 10px;
+  display: none;
+  font-size:1.6em;
+  background-color: var(--indigo);
+  color: white;
+  border-radius: 5px;
 }
 
+.closebar{
+  border: 1px solid transparent;
+  padding:5px 10px;
+  display: none;
+  font-size:2.1em;
+}
+  
+ 
+span{
+  color:var(--color-primary);
+  font-family: "poppins",sans-serif;
+}
+
+ 
+ header ul li{
+ list-style-type: none;
+ display: inline-block;
+ padding: 10px 25px;
+ 
+ }
+ header ul{
+ border: 1px solid transparent;
+ }
+ 
+ 
+ header ul li a{
+ text-decoration: none;
+ color:var(--color-white);
+ font-weight: bold;
+ font-weight: 1em;
+
+ }
+ 
+ header ul li a.btn{
+   background-color:var(--color-primary);
+   color:white;
+   padding: 10px 30px;
+   border-radius:4px;
+ }
+
+ header ul li a:hover{
+  border: 1px solid var(--color-primary);
+  padding: 10px 30px;
+  border-radius:4px;
+  transition: .4s;
+ }
+
+ header ul li a.btn:hover{
+  border: 1px solid var(--color-primary);
+  padding: 10px 30px;
+  border-radius:4px;
+  transition: .4s;
+  background-color: black;
+ }
+ 
+
+header ul li.btn:hover{
+ transform: scale(1.1);
+ }
+
+/* ------------------------------------------------------END OF NAVBAR ---------------------------------------*/
+ 
 
 .content{
 position: absolute;
