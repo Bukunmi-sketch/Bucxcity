@@ -1,3 +1,71 @@
+:root{
+  --color-dark: #241e38;;
+  --color-light:#f0eef6;
+  --color-gray:#9e98b3;
+  --color-primary:rgb(12, 5, 5);
+  --color-secondary:#d6ccff;
+  --color-danger:#fb5151;
+  --color-black:#000;
+  --color-success:#51fb51;
+  --color-white:#ffffff;
+  --color-fadewhite:#f8f8f8;
+
+
+  --blue: #007bff;
+--indigo: #6610f2;
+--purple: #6f42c1;
+--pink: #e83e8c;
+--red: #dc3545;
+--orange: #fd7e14;
+--yellow: #ffc107;
+--green: #28a745;
+--teal: #20c997;
+--cyan: #17a2b8;
+--white: #fff;
+--gray: #6c757d;
+--gray-dark: #343a40;
+--primary: #7b59d0;
+--secondary: #f8b195;
+--success: #28a745;
+--info: #17a2b8;
+--warning: #ffc107;
+--danger: #dc3545;
+--light: #f8f9fa;
+--dark: #343a40;
+
+  --border-radius:4px;
+  --card-border-radius:5px;
+  --btn-padding:10px 25px;
+  --search-padding:0.6rem 1rem;
+  --card-padding:1rem;
+
+  --sticky-top-left:5.4rem;
+  --sticky-top-right:-18rem;
+
+  --border-color:#fff;
+
+  --font-dmsans: 'DM Sans', sans-serif;
+  --font-gantari: 'Gantari', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-notosans: 'Noto Sans', sans-serif;
+  --font-nunitosans: 'Nunito Sans', sans-serif;
+  --font-prompt: 'Prompt', sans-serif;
+  --font-quicksand: 'Quicksand', sans-serif;
+  --font-rubik: 'Rubik Moonrocks', cursive;
+  --font-worksans: 'Work Sans', sans-serif;
+
+
+  --font-lato: "lato", sans-serif;
+  --font-poppins: "poppins", sans-serif;
+  --font-ubuntu: 'ubuntu',sans-serif;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; 
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; 
+
+}
+
+
+
 *{
   padding: 0;
   margin: 0;
@@ -213,6 +281,186 @@ right: 6px;
 }
 
 */
+
+/* --------------------------------------------------ABOUT ME SECTION-----------------------------------*/
+ 
+
+
+.box1{
+  padding: 50px 0;
+}
+
+.about-box-container{
+  display:flex;
+  border: 1px solid transparent;
+  background-color:white;
+  margin:30px 50px 50px 50px;
+  border-radius:4px;
+  box-shadow:0 0 10px #cecece;
+  align-items:center;
+  justify-content:center;
+}
+
+.about-box{
+margin:50px;
+width:50%;
+padding:30px;
+border:1px solid transparent;
+}
+
+
+.box1 h3{
+  font-size:0.9em;
+  font-weight: bold;
+  align-items: center;
+  position:absolute;
+  justify-content:center;
+  margin:-30px 10px 10px 30%;
+  border:1px solid transparent;
+  padding:10px 30px;
+  border-radius:30px;
+  background-color: var(--color-white);
+        
+  }
+  
+
+  
+.about-box p{
+  color:var(--color-black);
+  font-weight:light;
+  text-indent:5px;
+  text-align:justify;
+  align-items:center;
+  justify-content:center;
+  letter-spacing:0.9px;
+  line-height:25px;
+  margin:5px;
+  font-size:0.8em;
+  }
+
+  .about-box button{
+    margin:20px 0 0 50px;
+     border:unset;
+    background:unset;
+  }
+
+  .about-box a{
+    margin:30px;
+    background-color: var(--indigo);
+    color:white;
+    padding: 10px 20px;
+    border-radius:30px;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-family:"work sans",sans-serif;
+    font-size:0.9em;
+  }
+   .about-box a:hover{
+     background-color: white;
+     border: 2px solid var(--indigo);
+     color: black;
+     transition: .4s;
+   }
+   
+
+.about-box-container .image-box{
+  margin:10px;
+  width:30%;
+  padding:0;
+  border:1px solid transparent;  
+  }
+
+ /* --------------------------------------------------SERVICE SECTION -----------------------------------*/
+ 
+
+ .service-box{
+  padding:0 0 50px 0;
+border: 1px solid transparent; 
+
+margin:30px 0 0 0;
+border-radius: 4px;
+}
+
+.service-box  h3{
+  font-size:0.9em;
+  font-weight: bold;
+  align-items: center;
+  position:absolute;
+  justify-content:center;
+  margin:10px 10px 10px 30%;
+  border:1px solid transparent;
+  padding:10px 30px;
+  border-radius:30px;
+  background-color: var(--color-white);
+        
+}
+
+.service-box .service-p{
+  font-size:0.8em; 
+  margin:60px 0 0 40px;
+  font-family:"gantari",sans-serif;
+}
+
+.service-container{
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ }
+
+.card-service{
+display: flex;
+border: 1px solid transparent; 
+margin: 20px 0 0 30px;
+padding:0 0 50px 0;
+width:70%;
+flex-direction:column;
+border-radius:5px;
+
+background:white;
+}
+.ser-con{
+display: flex;
+flex-direction:column;
+border: 1px solid transparent; 
+width:100%;
+margin:50px 0 0 ;
+text-align: center;
+
+}
+
+.serv-photo{
+width:100%;
+height:90px;
+border: 1px solid white; 
+font-size:1.5em;
+text-align: center;
+background-color: white;
+border-radius:5px 5px 0 0;
+}
+
+.serv-photo i{
+  padding:20px;
+  background:var(--color-light);  
+  border-radius:50px;
+  margin:40px 0 0 0;
+  color:black;
+  font-size:1.5em;
+}
+
+.i-do {
+font-size: 1.2em;
+
+}
+
+.do{
+font-size:1em;
+margin-top:7px;
+font-weight:light;
+}
+
+
 
 /* not really necessary,well just for smaller desktop and for larger tablet though
 */
