@@ -342,16 +342,15 @@ right: 6px;
 
 
 .box1{
-  padding: 50px 0;
+  padding:100px 0 0 0;
+  background-color: #101010;
 }
 
 .about-box-container{
   display:flex;
   border: 1px solid transparent;
-  background-color:white;
-  margin:30px 50px 50px 50px;
+  margin:10px;
   border-radius:4px;
-  box-shadow:0 0 10px #cecece;
   align-items:center;
   justify-content:center;
 }
@@ -368,9 +367,9 @@ border:1px solid transparent;
   font-size:0.9em;
   font-weight: bold;
   align-items: center;
-  position:absolute;
+  position:relative;
   justify-content:center;
-  margin:-30px 10px 10px 30%;
+  margin:5px;
   border:1px solid transparent;
   padding:10px 30px;
   border-radius:30px;
@@ -381,7 +380,7 @@ border:1px solid transparent;
 
   
 .about-box p{
-  color:var(--color-black);
+  color:var(--color-white);
   font-weight:light;
   text-indent:5px;
   text-align:justify;
@@ -419,11 +418,12 @@ border:1px solid transparent;
    }
    
 
-.about-box-container .image-box{
+.about-box-container .image-box img{
   margin:10px;
-  width:30%;
+  width:100%;
   padding:0;
-  border:1px solid transparent;  
+  height:300px;
+  border:1px solid green;  
   }
 
  /* --------------------------------------------------SERVICE SECTION -----------------------------------*/
@@ -466,7 +466,7 @@ border-radius: 4px;
 
 .card-service{
 display: flex;
-border: 1px solid transparent; 
+border: 1px solid red; 
 margin: 20px 0 0 30px;
 padding:0 0 50px 0;
 width:70%;
