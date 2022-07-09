@@ -342,7 +342,7 @@ right: 6px;
 
 
 .box1{
-  padding:100px 0 0 0;
+  padding:20px 0 100px 0;
   background-color: #101010;
 }
 
@@ -364,17 +364,20 @@ border:1px solid transparent;
 
 
 .box1 h3{
-  font-size:0.9em;
+  font-size:1.1em;
   font-weight: bold;
   align-items: center;
-  position:relative;
+  text-align: center;
+  display:flex;
   justify-content:center;
   margin:5px;
   border:1px solid transparent;
+  width: 30%;
   padding:10px 30px;
   border-radius:30px;
-  background-color: var(--color-white);
-        
+  color: white;
+  background-color: var(--color-primary);
+  font-family:"work sans",sans-serif;      
   }
   
 
@@ -389,7 +392,8 @@ border:1px solid transparent;
   letter-spacing:0.9px;
   line-height:25px;
   margin:5px;
-  font-size:0.8em;
+  font-size:1em;
+  font-family:"work sans",sans-serif;
   }
 
   .about-box button{
@@ -423,22 +427,22 @@ border:1px solid transparent;
   width:100%;
   padding:0;
   height:300px;
-  border:1px solid green;  
+  border:1px solid transparent;  
   }
 
  /* --------------------------------------------------SERVICE SECTION -----------------------------------*/
  
 
  .service-box{
-  padding:0 0 50px 0;
+  padding:20px 0 100px 0;
 border: 1px solid transparent; 
-
+background-color: #000;
 margin:30px 0 0 0;
 border-radius: 4px;
 }
 
 .service-box  h3{
-  font-size:0.9em;
+  font-size:1.1em;
   font-weight: bold;
   align-items: center;
   position:absolute;
@@ -447,7 +451,8 @@ border-radius: 4px;
   border:1px solid transparent;
   padding:10px 30px;
   border-radius:30px;
-  background-color: var(--color-white);
+  color: var(--color-white);
+  background-color: var(--color-primary);
         
 }
 
@@ -460,20 +465,19 @@ border-radius: 4px;
 .service-container{
   border: 1px solid transparent;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
  }
 
 .card-service{
 display: flex;
-border: 1px solid red; 
+border: 1px solid transparent; 
 margin: 20px 0 0 30px;
 padding:0 0 50px 0;
 width:70%;
 flex-direction:column;
 border-radius:5px;
-
-background:white;
+background:#101010;
 }
 .ser-con{
 display: flex;
@@ -488,16 +492,16 @@ text-align: center;
 .serv-photo{
 width:100%;
 height:90px;
-border: 1px solid white; 
+border: 1px solid #101010; 
 font-size:1.5em;
 text-align: center;
-background-color: white;
+background-color: #101010;
 border-radius:5px 5px 0 0;
 }
 
 .serv-photo i{
   padding:20px;
-  background:var(--color-light);  
+  background:var(--color-primary);  
   border-radius:50px;
   margin:40px 0 0 0;
   color:black;
@@ -514,6 +518,105 @@ font-size:1em;
 margin-top:7px;
 font-weight:light;
 }
+
+/* ---------------------------CONTACT ME-----------------*/
+
+.contact-me{
+  background-color: #191919;
+      height:300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color:var(--color-white);
+      }
+      
+  
+    .contact-me p{
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 25px;
+      text-align: center;
+      }
+      
+      .contact-me .button-two{
+      background-color: var(--indigo);
+      color: white;
+      border-radius: 20px;
+      padding: 10px 20px;
+      border:  1px solid transparent;
+      text-decoration: none;
+      font-weight: bold;
+      transition: .4s;
+      
+      }
+      
+      .contact-me .button-two:hover{
+      background-color: transparent;
+      border: 2px solid var(--indigo);
+      cursor: pointer;
+      }
+
+      
+      footer{
+        padding: 100px 0;
+        width: 100%;
+        background-color:#101010 ;
+        height:400px ;
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items: center;
+        }
+        
+   footer p:nth-child(1){
+         font-weight: bold;
+         color: white;
+         font-size: 30px;
+         margin-bottom: 20px;
+        }
+        
+        footer p:nth-child(2){
+        
+        color: var(--indigo);
+        font-size: 16px;
+        line-height: 27px;
+        margin-bottom:25px;
+        text-align: center;
+        width:100%;
+        font-weight: bold;
+        }
+        
+        .social{
+         border:1px solid transparent;
+          display:block;
+          width:100%;
+         justify-content:center;
+         align-items: center;
+          display:flex;
+         justify-content:space-evenly;
+       }
+   
+       .social a{
+         color: var(--color-white);
+         background-color:black;
+         font-size:1.7em;
+         border:1px solid #101010 ;   
+         border-radius:50%;
+         padding:10px;
+        align-items:center;
+        display:flex;
+        justify-content:center;
+        margin:0 0 0 5px;
+       }
+        .end{
+        color:white; 
+        font-size:1em;
+        font-weight: bold;
+        bottom:35px;
+        border: 1px solid transparent;
+        }
+   
 
 
 
