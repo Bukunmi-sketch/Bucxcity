@@ -216,6 +216,26 @@ header ul li.btn:hover {
   transform: scale(1.1);
 }
 
+/* ------------------------------------------------------DROP DOWN HOVER ---------------------------------------*/
+
+.dropdown-hover{
+  border: 1px solid red;
+  margin-top:10px;
+  padding:10px;
+  position: absolute;
+  display: none;
+}
+
+.dropdown-hover span {
+  display:flex;
+  flex-direction: column;
+  padding: 10px 25px;
+}
+
+
+/* ------------------------------------------------------END OF DROP DOWN HOVER  ---------------------------------------*/
+
+
 /* ------------------------------------------------------END OF NAVBAR ---------------------------------------*/
 
 .content {
