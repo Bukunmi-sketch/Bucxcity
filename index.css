@@ -195,14 +195,14 @@ header ul li a.btn {
   padding: 10px 30px;
   border-radius: 30px;
 }
-/*
+
 header ul li a:hover {
   border: 1px solid var(--color-primary);
   padding: 10px 30px;
   border-radius: 4px;
   transition: 0.4s;
 }
-*/
+
 header ul li a.btn:hover {
   border: 2px solid var(--color-primary);
   padding: 10px 30px;
