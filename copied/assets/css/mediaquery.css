@@ -1,0 +1,272 @@
+/* ---------------------------MEDIA QUERY FOR SMALL TABLETS AND MOBILE PHONES-----------------*/
+@media screen and (max-width: 900px) {
+  before {
+    margin: 5px auto 10px;
+    border: 1px solid transparent;
+    width: 40%;
+  }
+  
+  .or {
+    text-align: center;
+    display: flex;
+    color: white;
+    font-size: 1rem;
+    border: 1px solid transparent;
+    font-weight: bold;
+  }
+  
+  .or:before,
+  .or:after {
+    border-bottom: 1px solid #cecece;
+    margin: 10px;
+    content: " ";
+    width:100%;
+    flex: 10%;
+  }
+  
+  h3.afterr{
+    text-align: center;
+    color: var(--color-primary);
+    font-size:1.7em;
+  }
+
+
+
+
+  header {
+    height: 70px;
+  }
+
+  header ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 70px;
+    height: 100vh;
+    background-color: var(--color-black);
+    left: -100%;
+  }
+
+  header ul li {
+    padding: 20px;
+    border: 1px solid transparent;
+  }
+
+  .logo {
+    font-size: 25px;
+    letter-spacing: 0;
+
+    margin-left: 20px;
+  }
+
+  .bars {
+    display: block;
+  }
+
+  .box1 {
+    padding:0;
+    
+  }
+
+  .first-box-container {
+    flex-direction: column;
+  }
+
+  .first-box {
+    width: 100%;
+  }
+
+  .first-box .button-box{
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+  }
+
+  .image-box {
+    width: 100%;
+  }
+
+
+  .swiper-box {
+    flex-wrap: nowrap;
+    padding: 10px;
+    justify-content: space-around;
+    display: none;
+  }
+
+  .first-box-container .image-box .swiper-box .swiper-slide img {
+    width:100%;
+    object-fit: cover;
+    padding: 0;
+    animation-name: fa-shake;
+  }
+
+  /* ---------------------------SECOND BOX-----------------*/
+
+  .second-box-container {
+    flex-direction: column;
+  }
+
+  .box2 {
+    padding: 20px 0 20px 0;
+    background-color: var(--color-black);
+  }
+  
+
+  .box2 h1{
+    font-size:2em;
+  }
+
+  .second-box {
+    margin: 10px;
+    width: 100%;
+    padding:10px;
+  }
+
+  .author-box {
+    width: 100%;
+
+  }
+
+
+  /* ---------------------------SKILLBOX BOX-----------------*/
+
+  .skillbox-box {
+    flex-direction: column;
+  }
+
+  .skillbox-item-header{
+    font-size: 1.8em;
+  }
+
+  .skillbox-item-inner-1 {
+    width: 100%;
+    margin:20px 0 0 -10px;
+  }
+
+
+  .skillbox-item-inner-2 {
+    width: 100%;
+    border: none;
+  }
+
+  .skillbox-card-2 {
+    width:90%;
+    margin: 50px 0 0 0;
+  }
+
+
+  .skillbox-item-inner-2 {
+    margin: 10px 0 0 -10px;
+
+  }
+
+  .skillbox-card {
+    width:90%;
+  }
+
+  /* ---------------------------SERVICE BOX-----------------*/
+  .service-container h3 {
+    font-size:1.8em;
+  }
+  
+
+  .service-card {
+    flex-direction: column;
+    width: 100%;
+  }
+
+
+  .service-first {
+    width: 100%;
+
+  }
+
+  .service-item-content {
+    width: 100%;
+   
+  }
+
+
+/* ---------------------------COOL PROJECT-----------------*/
+
+.cool-project-container h3 {
+  font-size:1.8em;
+}
+
+
+.cool-project-card {
+  flex-direction: column;
+  width: 100%;
+}
+
+
+.cool-project-first {
+  width: 100%;
+
+}
+
+.cool-project-item-content {
+  width: 100%;
+ 
+}  
+
+.link-box{
+  font-size: 0.8em;
+}
+
+/* ---------------------------EXPERIENCE BOX-----------------*/
+.experience-container {
+  padding:5px;
+}
+
+  .experience-wrapper{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .experience-container h3 {
+    font-size:1.8em;
+  }
+
+  .experience-card {
+    width:100%;
+  }
+
+  .experience-card-header h3{
+    font-size: 1.2em;
+  }
+
+
+/*---------------------------CONTACT ME BOX-----------------*/
+
+  .contact_container p {
+    font-size:2em;
+
+  }
+
+
+  .contact_container .button-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    height:100px;
+
+  }
+
+/*---------------------------AT UR SERVICE BOX-----------------*/
+
+  .at-ur-service-box {
+    flex-direction: column;
+  }
+
+  .at-ur-service-card {
+    width: 90%;
+  }
+
+
+
+}
